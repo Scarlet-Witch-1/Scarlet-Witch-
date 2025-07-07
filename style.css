@@ -1,0 +1,107 @@
+body {
+  background: pink;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
+.I-am-powerful {
+  border: solid 3px red;
+  color: red;
+  background-color: black;
+  font-family: cursive;
+  padding: 12px;
+  margin: 15px;
+}
+
+.I-am-beautiful {
+  border: solid 3px red;
+  color: red;
+  background-color: black;
+  font-family: cursive;
+  padding: 10px;
+  margin: 20px 0;
+  border-color: red;
+}
+
+.I-am-unpredictable {
+  border: solid 3px red;
+  color: red;
+  background-color: black;
+  font-family: cursive;
+  padding: 10px;
+  margin: 10px 0;
+  border-color: red;
+}
+.The-Scarlet-Witch {
+  border: solid 3px red;
+  color: red;
+  background-color: black;
+  font-family: cursive;
+  padding: 10px;
+  margin: 10px 0;
+  border-color: red;
+}
+
+.traits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+.trait-card {
+  flex: 300px;
+  background: #a32b2b;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+  padding: 20px;
+}
+
+img {
+  height: 150px;
+  border-radius: 330px;
+  border: 3px solid red;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.myImage {
+  background-image: url("Screenshot-2025-04-30-at-10.45.14---pm.png");
+}
+.myImage {
+  background-image: url("Screenshot-2025-04-01-at-4.58.12---pm.png");
+}
+.myImage {
+  background-image: url("image-copy.png");
+}
+
+
+
+
+}
